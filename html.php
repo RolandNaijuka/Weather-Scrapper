@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 
@@ -28,6 +30,10 @@
     .container {
         text-align: center;
         margin-top: 300px;
+        width: 500px;
+    }
+    input{
+        margin: 20px 0;
     }
     </style>
 </head>
@@ -36,10 +42,10 @@
     <div class="container">
         <h1>What's the weather?</h1>
 
-        <form>
+        <form method="POST">
             <div class="form-group">
                 <label for="city">Enter the name of a city</label>
-                <input type="text" class="form-control" id="city" aria-describedby="citySearch"
+                <input type="text" class="form-control" name="city" id="city" aria-describedby="citySearch"
                     placeholder="Eg. London, New York, Tokyo">
             </div>
 

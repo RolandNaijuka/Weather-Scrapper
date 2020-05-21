@@ -1,1 +1,7 @@
-<?php include "./html.php" ?>
+
+<?php
+
+include "./from-results.php";
+include "./html.php";
+
+?>
